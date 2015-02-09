@@ -1,0 +1,602 @@
+div
+{
+    font-family: Ubuntu;
+    font-family:adobe arabic;
+}
+
+ul {
+    list-style: none outside none;
+        list-style-type: none;
+        list-style-image: none;
+        list-style-position: outside;
+}
+li
+{
+    font-size: 23px;
+    color: black;
+    text-align: left;
+
+
+}
+
+
+#homeAddPost
+{
+     font-family: Ubuntu;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    border-color: gray;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    padding: 1.333em 20px;
+        padding-top: 1.333em;
+        padding-right-value: 20px;
+        padding-bottom: 1.333em;
+        padding-left-value: 20px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+        margin: 5px 5px 5px 5px;
+}
+
+#comboBox
+{
+    min-width: 92px;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 3px;
+        margin-right-value: 5px;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    padding: 5px;
+        padding-top: 5px;
+        padding-right-value: 5px;
+        padding-bottom: 5px;
+        padding-left-value: 5px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    background-color: #FFF;
+    border: 1px solid #443838;
+        border-top-width: 1px;
+        border-right-width-value: 1px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 1px;
+        border-left-width-value: 1px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: #443838;
+        border-right-color-value: #443838;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: #443838;
+        border-left-color-value: #443838;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+}
+
+#zone
+{
+   font-family: Ubuntu;
+    width: 200px;
+    background-color: #F;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    padding: 1.333em 20px;
+        padding-top: 1.333em;
+        padding-right-value: 20px;
+        padding-bottom: 1.333em;
+        padding-left-value: 20px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+        float: left;
+        margin: 5px 5px 5px 5px;
+}
+
+#button:hover
+{
+	min-height: 20px;
+    min-width: 290px;
+    color: #FFF;
+    background-color: #569E3D;
+    background-image: linear-gradient(#79D858, #569E3D);
+    background-repeat: repeat-x;
+    border-color: #4A993E;
+        border-top-color: #4A993E;
+        border-right-color-value: #4A993E;
+        border-bottom-color: #4A993E;
+        border-left-color-value: #4A993E;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+}
+
+#textarea
+{
+    font-size: 15px;
+    font-family: Ubuntu;
+    font-family:adobe arabic;
+    margin-bottom: 5px;
+    min-height: 400px;
+    min-width: 270px;
+    padding: 7px 8px;
+        padding-top: 7px;
+        padding-right-value: 8px;
+        padding-bottom: 7px;
+        padding-left-value: 8px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    outline: medium none;
+        outline-width: medium;
+        outline-style: none;
+        outline-color: -moz-use-text-color;
+    color: #333;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #CCC;
+        border-top-width: 1px;
+        border-right-width-value: 1px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 1px;
+        border-left-width-value: 1px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: #CCC;
+        border-right-color-value: #CCC;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: #CCC;
+        border-left-color-value: #CCC;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    border-radius: 3px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset;
+    vertical-align: middle;
+}
+
+#textarea:hover
+{
+    font-size: 15px;
+    font-family: Ubuntu;
+    font-family:adobe arabic;
+    margin-bottom: 5px;
+    min-height: 400px;
+    min-width: 270px;
+    padding: 7px 8px;
+        padding-top: 7px;
+        padding-right-value: 8px;
+        padding-bottom: 7px;
+        padding-left-value: 8px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    outline: medium none;
+        outline-width: medium;
+        outline-style: none;
+        outline-color: -moz-use-text-color;
+    color: #333;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #49A6F5;
+        border-top-width: 1px;
+        border-right-width-value: 1px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 1px;
+        border-left-width-value: 1px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: #49A6F5;
+        border-right-color-value: #49A6F5;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: #49A6F5;
+        border-left-color-value: #49A6F5;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    border-radius: 3px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset;
+    vertical-align: middle;
+}
+
+
+#textfield
+{
+	font-size: 15px;
+    font-family:adobe arabic;
+	font-family: Ubuntu;
+	margin-bottom: 5px;
+    min-height: 20px;
+    min-width: 270px;
+    padding: 7px 8px;
+        padding-top: 7px;
+        padding-right-value: 8px;
+        padding-bottom: 7px;
+        padding-left-value: 8px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    outline: medium none;
+        outline-width: medium;
+        outline-style: none;
+        outline-color: -moz-use-text-color;
+    color: #333;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #CCC;
+        border-top-width: 1px;
+        border-right-width-value: 1px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 1px;
+        border-left-width-value: 1px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: #CCC;
+        border-right-color-value: #CCC;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: #CCC;
+        border-left-color-value: #CCC;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    border-radius: 3px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset;
+    vertical-align: middle;
+    
+}
+
+#textfield:hover
+{
+    font-size: 15px;
+    font-family:adobe arabic;
+    font-family: Ubuntu;
+    margin-bottom: 5px;
+    min-height: 20px;
+    min-width: 270px;
+    padding: 7px 8px;
+        padding-top: 7px;
+        padding-right-value: 8px;
+        padding-bottom: 7px;
+        padding-left-value: 8px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    outline: medium none;
+        outline-width: medium;
+        outline-style: none;
+        outline-color: -moz-use-text-color;
+    color: #333;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #49A6F5;
+        border-top-width: 1px;
+        border-right-width-value: 1px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 1px;
+        border-left-width-value: 1px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: #49A6F5;
+        border-right-color-value: #49A6F5;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: #49A6F5;
+        border-left-color-value: #CCC;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    border-radius: 3px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset;
+    vertical-align: middle;
+    
+}
+#button
+{
+	min-height: 20px;
+    min-width: 290px;
+    position: relative;
+    display: inline-block;
+    padding: 7px 12px;
+        padding-top: 7px;
+        padding-right-value: 12px;
+        padding-bottom: 7px;
+        padding-left-value: 12px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    font-size: 15px;
+    font-family: Ubuntu;
+    color: #333;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.9);
+    white-space: nowrap;
+    background-color: #EEE;
+    background-image: linear-gradient(#FCFCFC, #EEE);
+    background-repeat: repeat-x;
+    border-radius: 3px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    border: 1px solid #D5D5D5;
+        border-top-width: 1px;
+        border-right-width-value: 1px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 1px;
+        border-left-width-value: 1px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: #D5D5D5;
+        border-right-color-value: #D5D5D5;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: #D5D5D5;
+        border-left-color-value: #D5D5D5;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+}
+
+
+#formLogin
+{
+    float: right;
+    width: 400px;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    padding: 1.333em 20px;
+        padding-top: 1.333em;
+        padding-right-value: 20px;
+        padding-bottom: 1.333em;
+        padding-left-value: 20px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+}
+
+#formAdd
+{
+    float: left;
+	width: 400px;
+	background-color: #F7F7F7;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    padding: 1.333em 20px;
+        padding-top: 1.333em;
+        padding-right-value: 20px;
+        padding-bottom: 1.333em;
+        padding-left-value: 20px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+}
+
+#eltList
+{
+    width: 300px;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    padding: 1.333em 20px;
+        padding-top: 1.333em;
+        padding-right-value: 20px;
+        padding-bottom: 1.333em;
+        padding-left-value: 20px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+}
+
+body {
+    padding-bottom: 30px;
+    background: url('../img/background-body.png') repeat scroll 0px 0px #FFF;
+        background-color: #FFF;
+        background-image: url('Mosaic.jpg');
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0px 0px;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+    font-family: 'Ubuntu','Ubuntu Beta',UbuntuBeta,Ubuntu,'Bitstream Vera Sans','DejaVu Sans',Tahoma,sans-serif;
+    font-family:adobe arabic;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #333;
+}
+
+
+#title_pub
+{
+    font-size: 167%;
+    font-weight: 400;
+    font-style: normal;
+    color: #AE0345;
+}
+
+#content_pub
+{
+    font-size: initial;
+}
+
+#comment
+{
+    float:left;
+}
+
+#bigTitle
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    background-color: darkgrey; 
+}
+
+#buttonLogout
+{
+   min-height: 25px;
+    min-width: 55px;
+    color: #FFF;
+    background-color: #F50C27;
+    background-image: linear-gradient(#BB0101, #FC0588);
+    background-repeat: repeat-x;
+    border-color: #F50C27;
+    border-top-color: #F50C27;
+    border-bottom-color: #F50C27;
+}
